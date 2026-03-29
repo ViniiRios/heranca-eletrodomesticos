@@ -33,6 +33,9 @@ public class Geladeira extends Eletrodomestico {
       return "A geladeira conserva alimentos e bebidas.";
 }
 
-
+  @Override
+  public String toString() {
+      return "Geladeira{" +
+}
   
 }
