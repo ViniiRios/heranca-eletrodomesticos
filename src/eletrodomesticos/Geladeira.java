@@ -36,6 +36,12 @@ public class Geladeira extends Eletrodomestico {
   @Override
   public String toString() {
       return "Geladeira{" +
+              "marca='" + getMarca() + '\'' +
+              ", modelo='" + getModelo() + '\'' +
+              ", voltagem=" + getVoltagem() +
+              ", ligado=" + isLigado() +
+              ", capacidadeLitros=" + capacidadeLitros +
+              ", frostFree=" + frostFree +
+              '}';
 }
-  
 }
