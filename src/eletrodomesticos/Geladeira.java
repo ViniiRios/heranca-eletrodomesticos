@@ -20,6 +20,14 @@ public class Geladeira extends Eletrodomestico {
     this.capacidadeLitros = capacidadeLitros;
 }
 
+  public boolean isFrostFree() {
+    return frostFree;
+}
+
+  public void setFrostFree(boolean frostFree) {
+    this.frostFree = frostFree;
+}
+
 
   
 }
