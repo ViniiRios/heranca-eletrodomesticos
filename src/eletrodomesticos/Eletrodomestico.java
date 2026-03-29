@@ -51,5 +51,23 @@ public class Eletrodomestico {
         this.ligado = ligado;
     }
 
+    // Método comum
+    public void ligar() {
+        this.ligado = true;
+        System.out.println("O eletrodoméstico foi ligado.");
+    }
+
+    // Método comum
+    public void desligar() {
+        this.ligado = false;
+        System.out.println("O eletrodoméstico foi desligado.");
+    }
+
+    // Método que vai ser sobrescrito nas filhas
+    public String acaoPrincipal() {
+        return "Função principal do eletrodoméstico.";
+    }
+
+
     
 }
