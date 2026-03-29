@@ -1,3 +1,4 @@
+package src.eletrodomestico;
 // Classe mãe
 public class Eletrodomestico {
     private String marca;
