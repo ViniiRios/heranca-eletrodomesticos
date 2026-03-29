@@ -1,4 +1,6 @@
+package src.eletrodomestico;
 // Classe filha
+
 public class Microondas extends Eletrodomestico {
     private int potenciaWatts;
     private boolean possuiGrill;
