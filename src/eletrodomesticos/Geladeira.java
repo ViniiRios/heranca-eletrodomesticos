@@ -16,6 +16,10 @@ public class Geladeira extends Eletrodomestico {
     return capacidadeLitros;
 }
 
+  public void setCapacidadeLitros(double capacidadeLitros) {
+    this.capacidadeLitros = capacidadeLitros;
+}
+
 
   
 }
