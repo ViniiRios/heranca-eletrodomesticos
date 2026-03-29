@@ -68,6 +68,14 @@ public class Eletrodomestico {
         return "Função principal do eletrodoméstico.";
     }
 
-
+    @Override
+    public String toString() {
+        return "Eletrodomestico{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", voltagem=" + voltagem +
+                ", ligado=" + ligado +
+                '}';
+    }
     
 }
