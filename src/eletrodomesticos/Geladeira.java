@@ -28,6 +28,11 @@ public class Geladeira extends Eletrodomestico {
     this.frostFree = frostFree;
 }
 
+  @Override
+  public String acaoPrincipal() {
+      return "A geladeira conserva alimentos e bebidas.";
+}
+
 
   
 }
