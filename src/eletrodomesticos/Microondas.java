@@ -1,3 +1,5 @@
+package eletrodomesticos;
+
 // Classe filha
 public class Microondas extends Eletrodomestico {
     private int potenciaWatts;
